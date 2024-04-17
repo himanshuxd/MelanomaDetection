@@ -14,39 +14,24 @@ This repository presents an in-depth analysis of melanoma detection using machin
 
 ## Project Overview
 
-This repository focuses on developing a machine learning model for the early detection of melanoma, a form of skin cancer. By analyzing dermoscopic images, the model aims to classify skin lesions as either benign or malignant, assisting healthcare professionals in making accurate diagnoses and improving patient outcomes.
+This repository focuses on developing a machine learning model for the early detection of melanoma, a potentially deadly type of skin cancer. By analyzing dermoscopic images, the model aims to classify skin lesions and detect Melanoma.
 
 ## Data Description
 
-The dataset used for melanoma detection comprises dermoscopic images of skin lesions categorized into benign and malignant classes. Each image is represented in JPEG format and contains detailed visual information about skin irregularities, textures, and colors.
+The dataset comprises 2357 images of various oncological diseases, obtained from the International Skin Imaging Collaboration (ISIC).
 
-### Features:
+The dataset includes images of the following diseases:
+- Actinic keratosis
+- Basal cell carcinoma
+- Dermatofibroma
+- Melanoma
+- Nevus
+- Pigmented benign keratosis
+- Seborrheic keratosis
+- Squamous cell carcinoma
+- Vascular lesion
 
-1. **Image Data**: The primary feature consists of dermoscopic images captured under different magnifications and lighting conditions.
-2. **Class Label**: Each image is associated with a class label indicating whether the skin lesion is benign or malignant.
-
-### Classes:
-
-The dataset includes the following classes:
-
-1. **Benign Lesions**: Skin lesions classified as benign are non-cancerous and typically exhibit regular borders, uniform coloration, and symmetric shapes. Examples include nevi and keratosis.
-2. **Malignant Lesions**: Malignant skin lesions are cancerous and may exhibit irregular borders, asymmetrical shapes, color variations, and other signs of malignancy. Examples include melanoma and squamous cell carcinoma.
-
-### Data Distribution:
-
-The distribution of images across classes is as follows:
-
-- Benign Lesions: 462 images
-- Melanoma: 438 images
-- Basal Cell Carcinoma: 376 images
-- Nevus: 357 images
-- Squamous Cell Carcinoma: 181 images
-- Vascular Lesion: 139 images
-- Actinic Keratosis: 114 images
-- Dermatofibroma: 95 images
-- Seborrheic Keratosis: 77 images
-
-The dataset is characterized by class imbalance, with varying numbers of samples across different classes. Addressing this imbalance is crucial for model training and achieving accurate melanoma detection.
+The images have been sorted based on the classification provided by ISIC. Each disease category contains a varying number of images, with melanoma and moles being slightly dominant compared to other classes.
 
 ## Approach
 
@@ -54,7 +39,7 @@ The project begins with comprehensive data preprocessing, including image resizi
 
 ## Findings
 
-- The CNN model demonstrates promising performance in distinguishing between benign and malignant skin lesions.
+- The CNN model demonstrates promising performance in distinguishing between different classes of skin lesions.
 - Data augmentation techniques effectively address class imbalance and improve model generalization.
 - Evaluation metrics indicate high accuracy, suggesting such a model's potential for clinical application in melanoma detection.
 
