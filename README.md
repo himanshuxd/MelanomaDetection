@@ -49,6 +49,7 @@ The developed melanoma detection model shows encouraging results, indicating its
 
 ## References
 
+- International Skin Imaging Collaboration (ISIC) (an academia and industry partnership designed to use digital skin imaging to help reduce skin cancer mortality.) [https://www.isic-archive.com/](https://www.isic-archive.com/)
 - American Cancer Society. (n.d.). Melanoma Skin Cancer. Retrieved from [https://www.cancer.org/cancer/melanoma-skin-cancer.html](https://www.cancer.org/cancer/melanoma-skin-cancer.html)
 - Skin Cancer Foundation. (n.d.). Melanoma. Retrieved from [https://www.skincancer.org/skin-cancer-information/melanoma/](https://www.skincancer.org/skin-cancer-information/melanoma/)
 - Garbe, C., Peris, K., Hauschild, A., Saiag, P., Middleton, M., Spatz, A., ... & Eggermont, A. M. (2016). Diagnosis and treatment of melanoma. European consensus-based interdisciplinary guideline—Update 2016. European Journal of Cancer, 63, 201-217.
